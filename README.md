@@ -1,10 +1,10 @@
-# 🚗 Car Insurance Claims Optimization with Process Mining 
+# Car Insurance Claims Optimization with Process Mining 
 
-This project simulates a consulting engagement to analyze and optimize the car insurance claims process using real-world event log data from Kaggle. It mirrors the kind of work done by Value Engineers at Celonis or Tech Advisors at firms like Accenture, Capgemini, or Adesso.
+This project simulates a consulting engagement to analyze and optimize the car insurance claims process using real-world event log data from Kaggle..
 
 ---
 
-## 🧠 Project Objectives
+## Project Objectives
 
 - Understand and visualize the full insurance claim process
 - Identify bottlenecks and rework loops
@@ -14,7 +14,7 @@ This project simulates a consulting engagement to analyze and optimize the car i
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - Python: `pandas`, `seaborn`, `matplotlib`
 - Power BI: for KPI dashboard and business storytelling
@@ -22,28 +22,28 @@ This project simulates a consulting engagement to analyze and optimize the car i
 
 ---
 
-## 🔍 Key Analyses
+## Key Analyses
 
-### ✅ Data Wrangling
+### Data Wrangling
 - Parsed timestamps from MM:SS.s format into durations
 - Sorted events by `case_id` and time
 - Calculated `activity_duration` and total `case_duration`
 
-### ✅ Exploratory Data Analysis
-- 📦 Activity-level delay analysis (boxplots)
-- 🕓 Case duration distribution (histogram)
-- 🔢 Process complexity via activity count
-- 🔁 Most common event sequences ("happy paths")
-- 🧭 Rare and broken paths (for root cause discovery)
-- 👤 Delay by agent
-- 🏷️ Segment delays by:
+### Exploratory Data Analysis
+- Activity-level delay analysis (boxplots)
+- Case duration distribution (histogram)
+- Process complexity via activity count
+- Most common event sequences ("happy paths")
+- Rare and broken paths (for root cause discovery)
+- Delay by agent
+- Segment delays by:
   - `type_of_policy`
   - `type_of_accident`
   - `car_year`
 
 ---
 
-## 📊 Power BI Dashboard (Phase 3)
+## Power BI Dashboard (Phase 3)
 Exported clean datasets for use in Power BI:
 - `cleaned_event_log.csv`: activity-level data
 - `case_summary.csv`: case-level metrics
@@ -56,10 +56,10 @@ Exported clean datasets for use in Power BI:
 
 ---
 
-## 🧾 File Structure
+## File Structure
 
 
-## 📈 Sample Insights
+## Sample Insights
 
 - Claims with rollover accidents take ~40% longer on average
 - Some agents consistently contribute to delays above the mean
@@ -68,6 +68,6 @@ Exported clean datasets for use in Power BI:
 
 ---
 
-## 💼 Business Value
+## Business Value
 
 > A 25% reduction in average case duration could lead to significant time savings and increased customer satisfaction — insights like these drive real impact in enterprise process mining.
